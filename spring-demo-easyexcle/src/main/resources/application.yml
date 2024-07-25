@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    show-sql: true
+    open-in-view: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring-demo?useSSL=false
+    username: root
+    password: bodyzxy
+  http:
+    multipart:
+      enabled: true
+      max-file-size: 10MB
+      max-request-size: 10MB
