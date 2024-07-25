@@ -11,9 +11,9 @@ spring:
     show-sql: true
     open-in-view: true
   datasource:
-    url: jdbc:mysql://localhost:3306/spring-demo?useSSL=false
-    username: root
-    password: bodyzxy
+    url: jdbc:mysql://localhost:3306/xxxxxxx?useSSL=false
+    username: xxxxx
+    password: xxxxx
   http:
     multipart:
       enabled: true
